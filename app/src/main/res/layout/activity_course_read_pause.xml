@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseReadPauseActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/ic_lightbulb_outline_black_24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="Wouah !! Vous avez appris plein de chose. Que voulez vous faire maintenant?"/>
+
+    <LinearLayout
+        android:id="@+id/button_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp">
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/qcm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"
+            android:text="Tester mes connaissances"/>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/gotonextpart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+            tools:text="Allez à L'électrolyse de l'eau"
+            android:layout_marginBottom="16dp"/>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/quit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            android:text="Quitter"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

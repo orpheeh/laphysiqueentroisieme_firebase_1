@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/ill"
+                                android:layout_width="match_parent"
+                                android:layout_height="320dp"
+                                android:padding="0dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/learn"/>
+
+                            <TextView
+                                android:id="@+id/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Les hydrocarbures"
+                                android:textColor="#FFF"
+                                android:layout_centerInParent="true"
+                                android:fontFamily="@font/anton"
+                                android:textAllCaps="true"
+                                android:textSize="24sp" />
+                        </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Résumé"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginLeft="32dp"/>
+
+                    <TextView
+                        android:id="@+id/summury"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="32dp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Je teste mes connaissances"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorAccent"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="256dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@drawable/student"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="16dp"
+                                android:textSize="14sp"
+                                android:textColor="#000"
+                                android:text="Teste tes connaisances grâce à de nombreuses questions à choix multiple."/>
+
+
+                            <TextView
+                                android:id="@+id/note"
+                                android:layout_width="54dp"
+                                android:layout_height="54dp"
+                                android:background="@drawable/little_blue_oval"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textColor="#FFF"/>
+
+                            <TextView
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Votre dernier resultat"
+                                android:layout_marginBottom="16dp"/>
+
+                            <android.support.design.button.MaterialButton
+                                android:id="@+id/btn_test"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="QCMs"
+                                android:textColor="#FFF"
+                                android:layout_marginRight="16dp"
+                                android:backgroundTint="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.design.card.MaterialCardView>
+
+            <android.support.design.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="256dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/training"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Je m'entraine"
+                        android:paddingLeft="16dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginBottom="32dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="16dp"
+                            android:textSize="14sp"
+                            android:textColor="#000"
+                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+
+                        <android.support.design.button.MaterialButton
+                            android:id="@+id/btn_training"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Faire les exercices"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:layout_margin="16dp"
+                            android:textColor="#FFF" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.design.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_play_arrow_black_24dp"
+        app:layout_anchor="@id/ill"
+            app:layout_anchorGravity="end|right|bottom"
+        android:layout_marginRight="16dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1076246506433",
+    "firebase_url": "https://laphysiqueentroisieme.firebaseio.com",
+    "project_id": "laphysiqueentroisieme",
+    "storage_bucket": "laphysiqueentroisieme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076246506433:android:474eb40ca3cedce4",
+        "android_client_info": {
+          "package_name": "com.example.norph.laphysiqueentroisime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076246506433-2i38eu504921kam11nsak0nrnajc0df1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.norph.laphysiqueentroisime",
+            "certificate_hash": "5c4c1c1b4673ef29ef927385bf4eadf27907815e"
+          }
+        },
+        {
+          "client_id": "1076246506433-oo7nq591ugnrclmlarcv2ttvrdgfh54n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTBeWbHBXoRBXz3sO4ouLMs7S4BDEMM50"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076246506433-oo7nq591ugnrclmlarcv2ttvrdgfh54n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
